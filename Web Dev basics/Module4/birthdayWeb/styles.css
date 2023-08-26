@@ -63,28 +63,33 @@ p {
   max-width: 500px;
   height: 300px;
   border: 6px solid #a53860;
-  border-radius: 10px;
+  border-radius: 18px;
   background-image: url("images/gift-cover.jpg");
   background-size: cover;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+#gift-img-excited:active,
 #gift-img-excited:hover {
   background-image: url("images/excited.webp");
 }
 
+#gift-img-scary:active,
 #gift-img-scary:hover {
   background-image: url("images/scary.gif");
 }
 
+#gift-img-gangsta:active,
 #gift-img-gangsta:hover {
   background-image: url("images/gangsta.gif");
 }
 
+#gift-img-tougher:active,
 #gift-img-tougher:hover {
   background-image: url("images/tougher.webp");
 }
 
+#gift-img-cheers:active,
 #gift-img-cheers:hover {
   background-image: url("images/cheers.gif");
 }
