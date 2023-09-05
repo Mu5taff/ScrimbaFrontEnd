@@ -60,6 +60,7 @@ body {
 }
 
 #Password-Generate-Btn {
+  cursor: pointer;
   box-shadow: 0px 1px 2px 0px #0000000d;
   background-color: #a78bfa;
   border: none;
@@ -86,6 +87,7 @@ body {
 }
 
 .password-display {
+  cursor: pointer;
   width: 211px;
   height: 39px;
   font-size: 16px;
