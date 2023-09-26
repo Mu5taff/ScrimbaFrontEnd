@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ff6392;
+    /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+    color: white;
+}
+
+
+#main-container{
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 51px auto;
+}
+
+img{
+    width: 90px;
+    margin: 0 auto;
+}
+
+
+#title{
+    font-family: Sofia Sans, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+#input-field{
+    padding: 12px 19px;;
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #f5efff;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    color: #1B1924;
+}
+
+textarea::-webkit-input-placeholder {  
+    color: #8F8F8F;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#publish-btn{
+    border: none;
+    font-family: Sofia Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #e0c3fc;
+    padding: 21px 19px 18px;
+    border-radius: 8px;
+    margin-top: 13px;
+    cursor: pointer; 
+    /* background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% ); */
+
+}
+
+#endorse-title{
+    font-family: Sofia Sans, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top: 24px; 
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 19px;
+}
+
+ul li{
+    padding: 13px 15px;
+    background: #FFF;
+    color: #1B1924;
+    text-align: left;
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    margin-bottom: 13px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2px;
+}
