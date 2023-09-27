@@ -1,4 +1,4 @@
-- # We are the Champions - Endorsements Project
+# We are the Champions - Endorsements Project
 
 This is a simple HTML, CSS, and Vanilla JavaScript project that allows users to enter endorsements into an input field and displays them using Firebase Realtime Database. It's a fun project inspired by the iconic Freddie Mercury.
 ## Table of Contents 
