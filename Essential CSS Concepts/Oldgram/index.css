@@ -32,13 +32,16 @@ p {
   box-sizing: border-box;
 }
 
+.bottom-border {
+  border-bottom: 1px solid #c6c6c6;
+}
+
 .side-padding {
   padding: 0 15px;
 }
 
 header {
   background: #fff;
-  border-bottom: 1px solid #c6c6c6;
   width: 100%;
   margin: 0;
 }
