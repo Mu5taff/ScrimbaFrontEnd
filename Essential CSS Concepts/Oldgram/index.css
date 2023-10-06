@@ -26,9 +26,9 @@ p {
 }
 
 /* LAYOUT */
-.container {
-  box-sizing: border-box;
-  /* border: 1px solid black; */
+main {
+  width: 375px;
+  margin: 0 auto;
 }
 
 .side-padding {
