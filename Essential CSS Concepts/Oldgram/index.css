@@ -27,7 +27,7 @@ p {
 
 /* LAYOUT */
 .container {
-  width: 700px;
+  width: 500px;
   margin: 0 auto;
   box-sizing: border-box;
 }
