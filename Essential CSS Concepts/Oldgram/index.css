@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Source Sans 3', sans-serif;
+    background: #FFF;
+}
+
+
+/* TYPOGRAPHY */
+
+h2, h3, p{
+    font-size: 13px;
+    margin:0
+}
+
+h2{
+    font-weight: 700
+}
+
+p{
+    font-weight: 400;
+}
+
+
+/* LAYOUT */
+.container{
+    width: 375px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.side-padding{
+    padding: 0 15px;
+}
+
+header{
+    background: #FFF;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+section{
+    background: #FFF;
+    padding: 11px 0;
+    border-bottom: 25px solid #EDEDED;
+    margin: 0;
+
+}
+
+img{
+    width: 100%;
+}
+.oldgram-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.oldgram-logo{
+   width: 127px; 
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 0 7px;
+    background: #FFF;
+    margin-bottom: 11px;
+}
+
+.oldgram-icons{
+    margin-right: 10px;
+    margin-top: 11px;
+    margin-bottom: 11.87px;
+    width: 23.3px;
+    height: 22.13px;
+}
+
+.comment-section{
+    display: flex;
+    gap: 2.5px;
+    margin: 12px 0 16px;
+}
+
+#main-element section:last-child { 
+    margin-bottom: 0; 
+    border-bottom: none;
+}
