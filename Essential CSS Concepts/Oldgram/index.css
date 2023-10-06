@@ -26,9 +26,10 @@ p {
 }
 
 /* LAYOUT */
-main {
-  width: 500px;
+.container {
+  width: 400px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .side-padding {
@@ -45,6 +46,7 @@ section {
   padding: 11px 0;
   border-bottom: 25px solid #ededed;
   margin: 0;
+  width: 100%;
 }
 
 img {
